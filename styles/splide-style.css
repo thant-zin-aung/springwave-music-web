@@ -1,0 +1,27 @@
+.splide__track {
+  overflow: hidden;
+}
+
+.splide__track::-webkit-scrollbar {
+  display: none;
+}
+
+.splide__track {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.splide__list {
+  display: flex;
+}
+
+.splide__slide {
+  flex-shrink: 0;
+  width: auto;
+  margin-right: 15px;
+}
+.splide__progress__bar {
+  margin-top: 10px;
+  height: 1px;
+  background: #9173ff;
+}
