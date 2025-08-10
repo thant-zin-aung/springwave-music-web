@@ -10,7 +10,7 @@ var splide = new Splide(".splide", {
   autoplay: true,
   interval: 5000,
   speed: 1000,
-  pauseOnHover: true,
+  pauseOnHover: false,
 });
 
 splide.mount();
