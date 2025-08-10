@@ -67,8 +67,10 @@ main {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  height: calc(100vh - 60px);
+  /* height: calc(100vh - 60px); */
+  height: 100vh;
   gap: 10px;
+  margin-bottom: 10px;
 }
 main > div {
   height: 100%;
@@ -134,7 +136,7 @@ main .left-container .menu-container:last-child .menu:nth-child(6) i {
 
 main .mid-container .special-track-list-container {
   width: 100%;
-  height: 270px;
+  min-height: 270px;
   /* background-color: red; */
   border-radius: 10px;
   overflow: hidden;
@@ -346,6 +348,9 @@ main .music-container {
   background-color: #0d0d0d;
   padding: 25px;
   border-radius: 10px;
+  display: flex; /* Needed so children can flex */
+  flex-direction: column;
+  overflow: hidden;
 }
 main .music-container .grates-album-title-container {
   width: 100%;
@@ -420,7 +425,13 @@ main .music-container .seperate-line {
 main .music-container .music-navigation-container {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+main .music-container .music-navigation-container .menu-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
   font-size: 12px;
 }
 main .music-container .music-navigation-container .item {
@@ -433,4 +444,86 @@ main .music-container .music-navigation-container .item {
 main .music-container .music-navigation-container .item.active {
   opacity: 1;
   border-color: #9173ff;
+}
+main .music-container .result-container {
+  width: 100%;
+  flex-grow: 1;
+  margin-top: 20px;
+  padding-right: 10px;
+  overflow-y: auto; /* or overflow-x if horizontal scroll */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #242424 transparent; /* Thumb color | Track color */
+}
+/* Scrollbar ============================================== */
+/* For Chrome, Edge, Safari */
+main .music-container .result-container::-webkit-scrollbar {
+  width: 1px !important; /* Thin scrollbar width */
+}
+
+main .music-container .result-container::-webkit-scrollbar-track {
+  background: transparent; /* Track background */
+}
+
+main .music-container .result-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar color */
+  border-radius: 1px !important; /* Rounded corners */
+}
+
+main .music-container .result-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker on hover */
+}
+/* Scrollbar ============================================== */
+main .music-container .result-container .playlist-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+main .music-container .result-container .playlist-item .name-detail {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+main .music-container .result-container .playlist-item .name-detail .name {
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+main .music-container .result-container .playlist-item .name-detail .artists {
+  opacity: 0.5;
+}
+main .music-container .result-container .playlist-item .name-detail img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+main .music-container .result-container .playlist-item .track-duration {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  width: 150px;
+}
+main .music-container .result-container .playlist-item .track-duration i {
+  font-size: 4px;
+  margin: 0 5px;
+}
+main .music-container .result-container .playlist-item .date {
+  opacity: 0.5;
+  width: 150px;
+}
+main .music-container .result-container .playlist-item .buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+main .music-container .result-container .playlist-item .buttons i {
+  opacity: 0.5;
+}
+main .music-container .result-container .playlist-item .buttons i:hover {
+  opacity: 1;
 }
