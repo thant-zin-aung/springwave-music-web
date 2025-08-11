@@ -11,6 +11,12 @@ var splide = new Splide(".splide", {
   interval: 5000,
   speed: 1000,
   pauseOnHover: false,
+  breakpoints: {
+    1920: {
+      perPage: 9,
+      gap: "20px",
+    },
+  },
 });
 
 splide.mount();
