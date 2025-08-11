@@ -632,61 +632,105 @@ main .right-container .new-releases-container {
 /* Responsive styles........................... */
 @media only screen and (max-width: 1920px) {
   header {
-    height: 50px;
+    height: 45px;
   }
   header .left-container .logo {
     width: 20px;
   }
   header h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   header .right-container .upgrade-text {
-    font-size: 12px;
+    font-size: 11px;
   }
   header .right-container .noti-container .bell-icon {
-    font-size: 16px;
+    font-size: 13px;
   }
   header .right-container .noti-container .badge {
     width: 6px;
     height: 6px;
     border-radius: 6px;
-    top: 0;
+    top: 2px;
   }
   header .right-container .profile-container {
-    width: 35px;
-    height: 35px;
-    border-radius: 35px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
   }
   header .right-container .down-arrow-icon {
-    font-size: 10px;
+    font-size: 9px;
+  }
+  main {
+    gap: 7px;
+    margin-top: 7px;
+  }
+  main > div {
+    gap: 5px;
   }
   main .left-container .menu-container {
-    font-size: 16px;
+    padding: 5px 0;
   }
   main .left-container .menu-container .menu {
-    height: 38px;
-    font-size: 12px;
+    height: 30px;
+    font-size: 10px;
   }
   main .left-container .menu-container .menu i {
-    font-size: 14px;
+    font-size: 10px;
   }
   main .left-container .menu-container:last-child i {
-    font-size: 7px;
+    font-size: 5px;
   }
   main .mid-container .special-track-list-container {
-    min-height: 245px;
+    min-height: 185px;
+  }
+  .special-track-list-container .special-track-container .backdrop-artist-name {
+    top: 15px;
+    left: 70px;
+    font-size: 100px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .track-title {
-    font-size: 60px;
+    font-size: 45px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .track-artist {
-    font-size: 13px;
+    font-size: 11px;
+    margin-bottom: 30px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .track-artist
+    span {
+    font-size: 11px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .button-container
+    button {
+    height: 35px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .button-container
+    .listen-button {
+    width: 130px;
+    font-size: 12px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .button-container
+    .save-button {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
   }
   .special-track-list-container
     .special-track-container
@@ -694,7 +738,7 @@ main .right-container .new-releases-container {
     .slide-container
     .dot-container
     i {
-    font-size: 4px;
+    font-size: 3px;
   }
   .special-track-list-container
     .special-track-container
@@ -702,35 +746,39 @@ main .right-container .new-releases-container {
     .slide-container
     .arrow-container
     i {
-    font-size: 11px;
+    font-size: 9px;
+  }
+  main .music-container {
+    padding: 20px 25px;
   }
   main .music-container .grates-album-title-container {
-    font-size: 12px;
+    font-size: 10px;
+    margin-bottom: 15px;
   }
   main
     .music-container
     .greatest-album-list-container
     .greatest-album-container
     .image-container {
-    height: 120px;
+    height: 100px;
   }
   main
     .music-container
     .greatest-album-list-container
     .greatest-album-container
     .album-name {
-    font-size: 12px;
-    margin: 4px 0;
+    font-size: 10px;
+    margin: 5px 0;
   }
   main
     .music-container
     .greatest-album-list-container
     .greatest-album-container
     .artist-name {
-    font-size: 11px;
+    font-size: 9px;
   }
   main .music-container .seperate-line {
-    margin-top: 35px;
+    margin-top: 30px;
   }
   main .music-container .music-navigation-container .menu-container {
     font-size: 11px;
