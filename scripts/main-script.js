@@ -13,8 +13,12 @@ var splide = new Splide(".splide", {
   pauseOnHover: false,
   breakpoints: {
     1920: {
-      perPage: 9,
+      perPage: 7,
       gap: "20px",
+    },
+    1366: {
+      perPage: 6,
+      gap: "15px",
     },
   },
 });

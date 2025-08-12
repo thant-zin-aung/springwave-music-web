@@ -661,18 +661,18 @@ main .right-container .new-releases-container {
     font-size: 9px;
   }
   main {
-    gap: 7px;
-    margin-top: 7px;
+    gap: 10px;
+    margin-top: 10px;
   }
   main > div {
-    gap: 5px;
+    gap: 10px;
   }
   main .left-container .menu-container {
     padding: 5px 0;
   }
   main .left-container .menu-container .menu {
     height: 30px;
-    font-size: 10px;
+    font-size: 11px;
   }
   main .left-container .menu-container .menu i {
     font-size: 10px;
@@ -752,7 +752,7 @@ main .right-container .new-releases-container {
     padding: 20px 25px;
   }
   main .music-container .grates-album-title-container {
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 15px;
   }
   main
@@ -760,14 +760,14 @@ main .right-container .new-releases-container {
     .greatest-album-list-container
     .greatest-album-container
     .image-container {
-    height: 100px;
+    height: 130px;
   }
   main
     .music-container
     .greatest-album-list-container
     .greatest-album-container
     .album-name {
-    font-size: 10px;
+    font-size: 11px;
     margin: 5px 0;
   }
   main
@@ -775,7 +775,7 @@ main .right-container .new-releases-container {
     .greatest-album-list-container
     .greatest-album-container
     .artist-name {
-    font-size: 9px;
+    font-size: 10px;
   }
   main .music-container .seperate-line {
     margin-top: 30px;
@@ -784,24 +784,26 @@ main .right-container .new-releases-container {
     font-size: 11px;
   }
   main .music-container .result-container .playlist-item {
-    font-size: 11px;
+    font-size: 10px;
+    margin-bottom: 10px;
   }
   main .music-container .result-container .playlist-item .name-detail img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 5px;
+    margin-right: 15px;
   }
   main .music-container .result-container .playlist-item .name-detail .name {
-    font-size: 12px;
+    font-size: 11px;
   }
   main .music-container .result-container .playlist-item .buttons {
     font-size: 15px;
   }
   main .right-container .weekly-top-song-container .title-container .title {
-    font-size: 12px;
+    font-size: 11px;
   }
   main .right-container .weekly-top-song-container .title-container .play-all {
-    font-size: 12px;
+    font-size: 11px;
   }
   main
     .right-container
@@ -809,7 +811,7 @@ main .right-container .new-releases-container {
     .song-list-container
     .item
     .rank {
-    font-size: 37px;
+    font-size: 33px;
     width: 25px;
   }
   main
@@ -829,7 +831,7 @@ main .right-container .new-releases-container {
     .item
     .detail
     .name {
-    font-size: 12px;
+    font-size: 11px;
   }
   main
     .right-container
@@ -838,6 +840,244 @@ main .right-container .new-releases-container {
     .item
     .detail
     .artist {
-    font-size: 11px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  header {
+    height: 40px;
+  }
+  header .left-container .logo {
+    width: 15px;
+  }
+  header h2 {
+    font-size: 15px;
+  }
+  header .right-container .upgrade-text {
+    font-size: 9px;
+  }
+  header .right-container .noti-container .bell-icon {
+    font-size: 10px;
+  }
+  header .right-container .noti-container .badge {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    top: 5px;
+    right: 0px;
+  }
+  header .right-container .profile-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  header .right-container .down-arrow-icon {
+    font-size: 6px;
+  }
+  main {
+    gap: 4px;
+    margin-top: 4px;
+    height: calc(100vh + 500px);
+  }
+  main > div {
+    gap: 4px;
+  }
+  main .left-container .menu-container {
+    padding: 5px 0;
+    border-radius: 6px;
+  }
+  main .left-container .menu-container .menu {
+    height: 22px;
+    font-size: 8px;
+  }
+  main .left-container .menu-container .menu i {
+    font-size: 8px;
+  }
+  main .left-container .menu-container:last-child i {
+    font-size: 3px;
+  }
+  main .mid-container .special-track-list-container {
+    min-height: 110px;
+  }
+  .special-track-list-container .special-track-container .backdrop-artist-name {
+    top: 0px;
+    left: 40px;
+    font-size: 70px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .track-title {
+    font-size: 25px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .track-artist {
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .track-artist
+    i {
+    font-size: 3px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .track-artist
+    span {
+    font-size: 8px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .button-container
+    button {
+    height: 25px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .button-container
+    .listen-button {
+    width: 90px;
+    font-size: 9px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .button-container
+    .save-button {
+    width: 25px;
+    height: 25px;
+    font-size: 8px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .slide-container
+    .dot-container
+    i {
+    font-size: 2px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .slide-container
+    .arrow-container
+    i {
+    font-size: 7px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .slide-container
+    .dot-container {
+    gap: 5px;
+  }
+  .special-track-list-container
+    .special-track-container
+    .track-detail-container
+    .slide-container
+    .arrow-container {
+    gap: 10px;
+  }
+  main .music-container {
+    padding: 20px 25px;
+  }
+  main .music-container .grates-album-title-container {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+  main
+    .music-container
+    .greatest-album-list-container
+    .greatest-album-container
+    .image-container {
+    height: 100px;
+  }
+  main
+    .music-container
+    .greatest-album-list-container
+    .greatest-album-container
+    .album-name {
+    font-size: 9px;
+    margin: 3px 0;
+  }
+  main
+    .music-container
+    .greatest-album-list-container
+    .greatest-album-container
+    .artist-name {
+    font-size: 8px;
+  }
+  main .music-container .seperate-line {
+    margin-top: 25px;
+  }
+  main .music-container .music-navigation-container .menu-container {
+    font-size: 9px;
+  }
+  main .music-container .result-container .playlist-item {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+  main .music-container .result-container .playlist-item .name-detail img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  main .music-container .result-container .playlist-item .name-detail .name {
+    font-size: 9px;
+  }
+  main .music-container .result-container .playlist-item .buttons {
+    font-size: 10px;
+  }
+  main .right-container .weekly-top-song-container .title-container .title {
+    font-size: 9px;
+  }
+  main .right-container .weekly-top-song-container .title-container .play-all {
+    font-size: 9px;
+  }
+  main
+    .right-container
+    .weekly-top-song-container
+    .song-list-container
+    .item
+    .rank {
+    font-size: 27px;
+    width: 18px;
+  }
+  main
+    .right-container
+    .weekly-top-song-container
+    .song-list-container
+    .item
+    img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  main
+    .right-container
+    .weekly-top-song-container
+    .song-list-container
+    .item
+    .detail
+    .name {
+    font-size: 9px;
+  }
+  main
+    .right-container
+    .weekly-top-song-container
+    .song-list-container
+    .item
+    .detail
+    .artist {
+    font-size: 8px;
   }
 }
