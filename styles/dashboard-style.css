@@ -846,34 +846,34 @@ main .right-container .new-releases-container {
 
 @media only screen and (max-width: 1366px) {
   header {
-    height: 40px;
+    height: 50px;
   }
   header .left-container .logo {
-    width: 15px;
+    width: 20px;
   }
   header h2 {
-    font-size: 15px;
+    font-size: 18px;
   }
   header .right-container .upgrade-text {
-    font-size: 9px;
+    font-size: 12px;
   }
   header .right-container .noti-container .bell-icon {
-    font-size: 10px;
+    font-size: 15px;
   }
   header .right-container .noti-container .badge {
-    width: 4px;
-    height: 4px;
-    border-radius: 4px;
-    top: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    top: 0px;
     right: 0px;
   }
   header .right-container .profile-container {
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
   }
   header .right-container .down-arrow-icon {
-    font-size: 6px;
+    font-size: 10px;
   }
   main {
     gap: 4px;
@@ -883,78 +883,84 @@ main .right-container .new-releases-container {
   main > div {
     gap: 4px;
   }
+  main .mid-container {
+    width: 63%;
+  }
+  main .right-container {
+    width: 22%;
+  }
   main .left-container .menu-container {
     padding: 5px 0;
     border-radius: 6px;
   }
   main .left-container .menu-container .menu {
-    height: 22px;
-    font-size: 8px;
+    height: 35px;
+    font-size: 12px;
   }
   main .left-container .menu-container .menu i {
-    font-size: 8px;
+    font-size: 12px;
   }
   main .left-container .menu-container:last-child i {
-    font-size: 3px;
+    font-size: 6px;
   }
   main .mid-container .special-track-list-container {
-    min-height: 110px;
+    min-height: 190px;
   }
   .special-track-list-container .special-track-container .backdrop-artist-name {
-    top: 0px;
+    top: 20px;
     left: 40px;
-    font-size: 70px;
+    font-size: 110px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .track-title {
-    font-size: 25px;
+    font-size: 50px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .track-artist {
-    font-size: 9px;
-    margin-bottom: 10px;
+    font-size: 12px;
+    margin-bottom: 40px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .track-artist
     i {
-    font-size: 3px;
+    font-size: 6px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .track-artist
     span {
-    font-size: 8px;
+    font-size: 12px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .button-container
     button {
-    height: 25px;
+    height: 35px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .button-container
     .listen-button {
-    width: 90px;
-    font-size: 9px;
+    width: 130px;
+    font-size: 12px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .button-container
     .save-button {
-    width: 25px;
-    height: 25px;
-    font-size: 8px;
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
   }
   .special-track-list-container
     .special-track-container
@@ -962,7 +968,7 @@ main .right-container .new-releases-container {
     .slide-container
     .dot-container
     i {
-    font-size: 2px;
+    font-size: 4px;
   }
   .special-track-list-container
     .special-track-container
@@ -970,27 +976,27 @@ main .right-container .new-releases-container {
     .slide-container
     .arrow-container
     i {
-    font-size: 7px;
+    font-size: 10px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .slide-container
     .dot-container {
-    gap: 5px;
+    gap: 8px;
   }
   .special-track-list-container
     .special-track-container
     .track-detail-container
     .slide-container
     .arrow-container {
-    gap: 10px;
+    gap: 20px;
   }
   main .music-container {
-    padding: 20px 25px;
+    padding: 30px 25px;
   }
   main .music-container .grates-album-title-container {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 15px;
   }
   main
@@ -998,14 +1004,14 @@ main .right-container .new-releases-container {
     .greatest-album-list-container
     .greatest-album-container
     .image-container {
-    height: 100px;
+    height: 130px;
   }
   main
     .music-container
     .greatest-album-list-container
     .greatest-album-container
     .album-name {
-    font-size: 9px;
+    font-size: 12px;
     margin: 3px 0;
   }
   main
@@ -1013,35 +1019,38 @@ main .right-container .new-releases-container {
     .greatest-album-list-container
     .greatest-album-container
     .artist-name {
-    font-size: 8px;
+    font-size: 11px;
   }
   main .music-container .seperate-line {
-    margin-top: 25px;
+    margin-top: 30px;
   }
   main .music-container .music-navigation-container .menu-container {
-    font-size: 9px;
+    font-size: 12px;
   }
   main .music-container .result-container .playlist-item {
-    font-size: 8px;
+    font-size: 11px;
     margin-bottom: 10px;
   }
   main .music-container .result-container .playlist-item .name-detail img {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 5px;
     margin-right: 15px;
   }
   main .music-container .result-container .playlist-item .name-detail .name {
-    font-size: 9px;
+    font-size: 12px;
   }
   main .music-container .result-container .playlist-item .buttons {
-    font-size: 10px;
+    font-size: 15px;
   }
   main .right-container .weekly-top-song-container .title-container .title {
-    font-size: 9px;
+    font-size: 12px;
   }
   main .right-container .weekly-top-song-container .title-container .play-all {
-    font-size: 9px;
+    font-size: 12px;
+  }
+  main .right-container .weekly-top-song-container .song-list-container {
+    gap: 15px;
   }
   main
     .right-container
@@ -1049,8 +1058,8 @@ main .right-container .new-releases-container {
     .song-list-container
     .item
     .rank {
-    font-size: 27px;
-    width: 18px;
+    font-size: 30px;
+    width: 20px;
   }
   main
     .right-container
@@ -1058,8 +1067,8 @@ main .right-container .new-releases-container {
     .song-list-container
     .item
     img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 5px;
   }
   main
@@ -1069,7 +1078,7 @@ main .right-container .new-releases-container {
     .item
     .detail
     .name {
-    font-size: 9px;
+    font-size: 12px;
   }
   main
     .right-container
@@ -1078,6 +1087,6 @@ main .right-container .new-releases-container {
     .item
     .detail
     .artist {
-    font-size: 8px;
+    font-size: 11px;
   }
 }
